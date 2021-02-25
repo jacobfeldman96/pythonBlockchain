@@ -83,11 +83,10 @@ amount = 0.0001
 
 # print(account.get_unspents())
 
-send_tx(ETH, account, '0x3eF30d4578763e11998F3a1dC5080bC46ffac714', 0.0001)
+# send_tx(ETH, account, '0x3eF30d4578763e11998F3a1dC5080bC46ffac714', 0.0001)
 
 def main():
     account = priv_key_to_account(coin, priv_key)
-    # createTx = create_tx(coin,account,recipient,amount)
     sendTx = send_tx(coin, account, recipient, amount)
     return
 

@@ -81,6 +81,10 @@ Ethereum keys are the same format on any network, so the Ethereum keys should wo
 
 You should now be able to select child accounts (and thus, private keys) by calling `coins[COINTYPE][INDEX]['privkey']`.
 
+Your wallet should then print to the terminal like so:
+
+![](./Resources/Wallet.png)
+
 ### Linking the transaction signing libraries
 
 Now, we need to use `bit` and `web3.py` to leverage the keys we've got in the `coins` object.
@@ -174,4 +178,8 @@ A successful bitcoin transaction will look like the following:
 
 ![](./Resources/R)
 
+### Ethereum Transaction Success
 
+A successful ether transaction will look like the following:
+
+![](./Resources/Etherscan.png)
